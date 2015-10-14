@@ -55,4 +55,11 @@ describe("Testing if the end of string is correct", function(){
         done();
     });
 
+    it("Ignore option case ignoreLessThanLength is not a number", function(done){
+        var nameTest =' JosÉ fagundes da HernanteS ',
+            nameSCN = SCN(nameTest,{ignoreLessThanLength: 'teste'});
+        nameSCN.should.be.equal('José Fagundes Da Hernantes');
+        done();
+    });
+
 });
