@@ -1,6 +1,6 @@
 {
   "name": "string-capitalize-name",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "app.js",
   "directories": {
@@ -8,11 +8,9 @@
   },
   "keywords": [
     "capitalize",
-    "capitalize name",
     "name",
-    "UpperCase",
-    "string",
-    "capitalize string"
+    "uppercase",
+    "string"
   ],
   "author": "Ramon Mulia",
   "license": "ISC",
